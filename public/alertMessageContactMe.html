@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+  <section class="hero is-fullheight">
+    <div class="hero-head" style="padding-top: 40px">
+      <div class="container has-text-centered">
+        <div class="notification" id="messageSentNotification">
+          <button onclick="redirectToIndex()" class="delete"></button>
+          <strong>Thank you for your message.</strong> 
+          <br>
+          I will get back to you soon.
+        </div>
+      </div>  
+    </div>
+    <div class="hero-body">
+    </div>
+    <div class="hero-footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                  Created and maintained by Mindaugas Januška
+                </p>
+            </div>
+        </div>
+    </div>
+</section> 
+</body>
+<script>
+  function redirectToIndex() {
+    window.location.href = "index.html"
+  }
+</script>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="hero is-fullheight">
+    <div class="hero-head" style="padding-top: 40px">
+      <div class="container">
+        <!-- buttons -->
+        <div class="buttons is-centered">
+          <a href="index.html" class="button is-success is-outlined">
+            Home
+          </a>
+          <a href="contactme.html" class="button is-danger is-outlined">
+            Contact me
+          </a>
+        </div>
+        <!-- /buttons -->
+        <!-- social media-->
+        <div class="column has-text-centered">
+          <a href="https://github.com/mindaugas-pro">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div class="column has-text-centered">
+          <a href="https://www.linkedin.com/in/mindaugas-/">
+            <span class="icon">
+              <i class="fab fa-linkedin"></i>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+        <!-- social media -->
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column has-text-centered">
+            <figure class="image">
+              <img src="images/technical-skills.png">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-footer">
+      <div class="container">
+        <div class="content has-text-centered is-size-6">
+          <p>
+            Created and maintained by Mindaugas Januška
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script>
+  function displayHardSkillsLarge() {
+    // document.getElementsByClassName("image")[0].style.display = "none";
+    // document.getElementsByClassName("image")[1].style.display = "none";
+    document.getElementById("imagesCntr").style.display = "none";
+    document.getElementById("softSkillsLarge").style.display = "none";
+    document.getElementById("hardSkillsLarge").style.display = "block";
+  }
+  function displaySoftSkillsLarge() {
+    document.getElementById("imagesCntr").style.display = "none";
+    document.getElementById("hardSkillsLarge").style.display = "none";
+    document.getElementById("softSkillsLarge").style.display = "block";
+  }
+</script>
+
+</html>
