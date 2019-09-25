@@ -8,15 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You need a Node JS installed on your machine. You can download and install it [from here](https://nodejs.org/en/download/)
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
 
 1. Fork this repository to your desired location on your local machine:
 
