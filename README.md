@@ -1,6 +1,6 @@
 # Mindaugas Januška web page for job search
 
-One Paragraph of project description goes here
+I wanted a clean, simple web page to supplement my job search process. It had to be fast, mobile-friendly, free to build and easy to update. This is the result. Forks and pull requests are welcome!
 
 ## Getting Started
 
@@ -18,16 +18,28 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+1. Fork this repository to your desired location on your local machine:
 
 ```
-Give the example
+git clone https://github.com/mindaugas-pro/personal-website-jobsearch.git
 ```
 
-And repeat
+2. Run following code to install node_modules from package.json file:
 
 ```
-until finished
+npm install
+```
+
+3. Run the following code to start application on port 3000:
+
+```
+npm start app
+```
+
+4. Go to your browser and paste the following url address:
+
+```
+http://localhost:3000
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
