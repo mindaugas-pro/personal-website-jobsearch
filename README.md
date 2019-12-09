@@ -24,13 +24,18 @@ git clone https://github.com/mindaugas-pro/personal-website-jobsearch.git
 npm install
 ```
 
-3. Run the following code to start application on port 3000:
+3. In the file 'sendEmail.js' enter you email provider, email addrress and
+    password. This will enable to send an email to you directly from
+    website. Please note, that 2 step verification should be disabled for
+    gmail, otherwise gmail will block sending emails.
+
+4. Run the following code to start application on port 3000:
 
 ```
 npm start app
 ```
 
-4. Go to your browser and paste the following url address:
+5. Go to your browser and paste the following url address:
 
 ```
 http://localhost:3000
